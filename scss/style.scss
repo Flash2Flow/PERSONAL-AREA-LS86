@@ -217,7 +217,7 @@ a{
     font-size: 18px;
 }
 .block-btn-settings{
-    margin-top: 73px;
+    margin-top: 150px;
     margin-bottom: 20px;
 }
 .btn-settings{
@@ -284,6 +284,10 @@ a{
     height: 270px;
     text-align: center;
     margin-bottom: 20px;
+    transition: .2s ease;
+}
+.block-player:hover{
+    background-color: #372e38;
 }
 .up-block-name{
     background-color: white;
