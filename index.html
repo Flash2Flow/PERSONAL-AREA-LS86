@@ -14,6 +14,55 @@
 </head>
 <body>
 
+    <!--Модульное окно смены пароля-->
+    <div class="block-remove-password" id="block-remove-password">
+        <div class="block-remove-name">
+            <h2 class="remove-name">СМЕНА ПАРОЛЯ</h2>
+        </div>
+        <div class="container-settings">
+            <div class="block-inputs-code">
+                <input type="password" placeholder="Введите код из почты" class="code">
+            </div>
+            <div class="block-btn-accept-code">
+                <button class="btn-accept" id="btn-accept">ОТПРАВИТЬ</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Модульное окно смены пароля-->
+    <div class="block-remove-password" id="block-set-password">
+        <div class="block-set-name">
+            <h2 class="remove-name">СМЕНА ПАРОЛЯ</h2>
+        </div>
+        <div class="container-settings">
+            <div class="block-inputs-code">
+                <input type="password" placeholder="Введите новый пароль..." class="code-set">
+                <input type="password" placeholder="Повторите пароль..." class="code-set">
+            </div>
+            <div class="block-btn-set-code">
+                <button class="btn-accept">СМЕНИТЬ</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Модульное окно настроек-->
+    <div class="block-settings-account" id="block-settings-account">
+        <div class="block-settings-name">
+            <h2 class="name-block-set">НАСТРОЙКИ АККАУНТА</h2>
+        </div>
+        <div class="container-settings">
+            <div class="block-settings-stroke">
+                <div class="block-stroke-email">
+                    <h3 class="stroke-email">Почта: fkhsdfkhs@mail.ru</h3>
+                </div>
+                <div class="block-stroke-password">
+                    <h3 class="stroke-password">Пароль: *******</h3>
+                    <i class="fa-solid fa-pen size-pencil" id="pencil"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--burger-menu-->
         <div class="burger-menu" id="burger-menu">
             <div class="block_mobile_nav">
@@ -80,7 +129,7 @@
                                 <h5 class="inform">Почта:</h5>
 
                                 <div class="block-btn-settings">
-                                    <button class="btn-settings" type="button">НАСТРОЙКИ АККАУНТА</button>
+                                    <button class="btn-settings" id="btn-settings" type="button">НАСТРОЙКИ АККАУНТА</button>
                                 </div>
                                 <div class="block-btn-logout">
                                     <button class="btn-logout" type="button">ВЫЙТИ ИЗ АККАУНТА</button>

@@ -11,7 +11,20 @@
         width: 230px;
     }
 }
-
+input[type=password]{
+    text-align: center;
+    @include BoldDownFonts;
+    font-size: 15px;
+    color: black;
+}
+input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    transition: .2s ease;
+}
 body{
     background-color: #311432;
     height: 100%;
@@ -326,6 +339,97 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.block-stroke-email{
+    display: flex;
+}
+.block-stroke-password{
+    display: flex;
+}
+.size-pencil{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.name-block-set{
+    @include BoldUpFonts;
+}
+.remove-name{
+    @include BoldUpFonts;
+}
+.block-settings-account{
+    display: none;
+    background-color: #311432;
+    z-index: 2;
+    box-shadow: 0px 0px 20px #000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+}
+.block-settings-name{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.container-settings{
+    margin: 0 auto;
+    width: 370px;
+}
+.stroke-email{
+    @include BoldDownFonts;
+    font-size: 20px;
+}
+.stroke-password{
+    @include BoldDownFonts;
+    font-size: 20px;
+}
+.block-remove-name{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.block-remove-password{
+    display: none;
+    background-color: #311432;
+    z-index: 2;
+    box-shadow: 0px 0px 20px #000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+}
+.btn-accept{
+    @include BoldUpFonts;
+    font-size: 15px;
+    border: none;
+    background-color: #259F38;
+    padding: 15px 60px;
+    color: white;
+    transition: .2s ease;
+    letter-spacing: 2px;
+}
+.btn-accept:hover{
+    box-shadow: 0px 0px 20px 0px rgb(83 78 78);
+}
+.block-btn-accept-code{
+    text-align: center;
+    margin-top: 60px;
+}
+.code-set{
+    margin-bottom: 20px;
+}
+.block-btn-set-code{
+    text-align: center;
+    margin-top: 20px;
+}
+.block-set-name{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 28px;
 }
 
 //media
